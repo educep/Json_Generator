@@ -11,8 +11,9 @@ By the moment there are 4 possible type fields ('char'=string, 'num'=float, 'boo
 We generate them from a table .csv. The used separator is ';'.
 
 	
-*How to Use*
-python gen_json.py filename.csv
+**How to Use**
+
+`python gen_json.py filename.csv`
 
 - Reads filename.csv (which must be in the same folder) and writes filename.json
 
@@ -29,8 +30,9 @@ It will produce two json files:
 - monuments_model.json
 - districts_model.json
 
-*How to Use*
-python generate_all.py
+**How to Use**
+
+`python generate_all.py`
 
 ## Licence
 Use as you wish, not responsible for bad functioning outside the TourBlink framework.
