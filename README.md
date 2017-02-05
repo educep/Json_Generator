@@ -17,7 +17,7 @@ We generate them from a table .csv. The used separator is ';'.
 
 - Reads filename.csv (which must be in the same folder) and writes filename.json
 
-## Case 2: From CSV providing file names (adapted for TourBlink)
+## Case 2: From CSV file names in script (adapted for TourBlink)
 The folder must contain 5 csv files whose separator is tab ('\t', this allows to copy-paste directly from the google docs and avoid further treatment):
 
 - monuments_eng = 'monuments_eng.csv'
