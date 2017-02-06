@@ -42,7 +42,8 @@ def create_json_struc(thisline,fieldnames,datatypes):
         #print('%d,%s'%(index,thisline[index]))
         typeaux = datatypes[index].replace('"','') 
         if typeaux == 'char':
-            currentStruct[fieldnames[index]] = thisline[index]
+            valaux = thisline[index].replace('\\n','\n')
+            currentStruct[fieldnames[index]] = valaux
             #print('%s done'%fieldnames[index])
         elif typeaux == 'num':
             numval = thisline[index].replace('"','')
