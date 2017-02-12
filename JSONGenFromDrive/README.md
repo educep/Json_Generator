@@ -9,12 +9,13 @@ Write in the Google Sheet: 1-2,1-3,6,5 you obtain: [ [1],[2,1],[3,6,5] ]
 
 ## Accessing Google APIs from Python
 Download and install the library in your usual way, for example:
-$ pip install -U google-api-python-client  # or pip3 for 3.x
+
+`$ pip install -U google-api-python-client  # or pip3 for 3.x`
 
 ## Reading .ods Files
 pyexcel-ods is a tiny wrapper library to read, manipulate and write data in ods format using python 2.6 and python 2.7. You can install it via pip:
 
-$ pip install pyexcel-ods
+`$ pip install pyexcel-ods`
 
 # What you need
 In order to execute this code, you'll need:
@@ -30,7 +31,8 @@ Once you have configured your Drive API (you have client_id.json at least and st
 Set the API KEY in CallDriveAPI.
 
 In the command window:
-$ python GenAllFromDrive.py
+
+`$ python GenAllFromDrive.py`
 
 It will produce two json files:
 - monuments_model.json
