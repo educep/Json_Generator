@@ -23,9 +23,9 @@ In order to execute this code, you'll need:
 - Set the SCOPES of your query (the more restrictive the best), for TourBlink use it suffices:
    'https://www.googleapis.com/auth/drive.apps.readonly'
 - client_id.json: file with the Drive Project ID and your authentication (mandatory), downloadable from Drive.
-- storage.json: file with the permission. If you don't have it, you'll need to allow permission directly on your browser (a window pop up). Once you granted permission the file is generated for future use. (If connectivity problem, try deleting this file).
+- storage.json: file with the authentication settings. If you don't have it, you'll need to allow permission directly on your browser (a window pop up). Once you granted permission the file is generated for future use. (If connectivity problem, try deleting this file).
 
-**How to Use**
+# How to Use
 Once you have configured your Drive API (you have client_id.json at least and storage.json).
 Set the API KEY in CallDriveAPI.
 
