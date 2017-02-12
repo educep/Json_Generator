@@ -47,7 +47,7 @@ DataInXL = json.loads(json.dumps(get_data('%s.ods'%File2Read)))
 
 DistrictsModel['districts']['esp'] = read_fromJSON.json_fromFileName(DataInXL[SheetName1])
 DistrictsModel['districts']['eng'] = read_fromJSON.json_fromFileName(DataInXL[SheetName2])
-DistrictsModel['days'] = read_fromJSON.json_fromFileName(DataInXL[SheetName1])
+DistrictsModel['days'] = read_fromJSON.json_fromFileName(DataInXL[SheetName3])
 
 with open(districtsjson, 'w') as jsonfile:
 	json.dump(DistrictsModel, jsonfile,indent=4, sort_keys=True, ensure_ascii=False)
